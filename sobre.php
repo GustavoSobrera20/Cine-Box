@@ -25,7 +25,7 @@
                 <img src="./assets/img/sobre/turma_4.JPEG" alt="foto da turma TI21" class="imagem-right">
             </div>
         </div>
-        <div class="row" >
+        <div class="row">
             <div class="col-4">
                 <img src="./assets/img/sobre/turma_3.JPEG" alt="foto da turma TI21" class="imagem-left">
             </div>

@@ -16,7 +16,7 @@ class Generos{
         
 
     }
-
+//jamais uso classe dnv negocio medonho
     public function consultarlistaGeneros(){
         
       $script = 'SELECT * FROM tb_generos';

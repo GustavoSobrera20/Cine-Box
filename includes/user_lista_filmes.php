@@ -1,19 +1,16 @@
+<?php foreach ($resultadoConsultaFilmes as $value) { ?>
 
-
-
-<?php foreach($resultadoConsultaFilmes as $value) {?>
-        
     <div class="row desc-filme">
 
         <div class="col-12 col-lg-2 col-sm-12 col-md-12 text-center">
-            <img src="./assets/img/poster/<?=$value['poster'] ?>" alt="" class="desc-foto">
+            <img src="./assets/img/poster/<?= $value['poster'] ?>" alt="" class="desc-foto">
         </div>
 
         <div class="col-12 col-lg-8 col-sm-12 col-md-12 mt-3">
-            <h3 class="title"> <?=$value['nome']?></h3>
+            <h3 class="title"> <?= $value['nome'] ?></h3>
             <p class="desc-descricao">
-            <?= $value['descricao'] ?>
-        </p>
+                <?= $value['descricao'] ?>
+            </p>
         </div>
 
         <div class="col-12 col-lg-2 col-sm-12 col-md-12 desc-btn p-3">
@@ -31,4 +28,4 @@
 
 
 
-        <?php } ?>
+<?php } ?>
